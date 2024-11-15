@@ -1,0 +1,12 @@
+            - name: Poetry Update
+  # You may pin to the exact commit or the version.
+  # uses: fuzzylabs/gha-poetry-update@78e5e9c0b0ac652b8d1c263b4cd4d4185143fa2c
+  uses: fuzzylabs/gha-poetry-update@v1.0.2
+  with:
+    # The python version to use with poetry
+    python-version: # optional, default is 3.10.12
+    # The poetry version to use
+    poetry-version: # optional, default is 1.8.2
+    # The directory of the project files
+    directory: # optional, default is ./
+          
